@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll">
+
+    <test name="order">
+        <classes>
+            <class name="com.yiibai6.TestConfig" />
+            <class name="com.yiibai6.TestOrder" />
+        </classes>
+    </test>
+
+    <test name="database">
+        <classes>
+            <class name="com.yiibai6.TestConfig" />
+            <class name="com.yiibai6.TestDatabase" />
+        </classes>
+    </test>
+
+</suite>
