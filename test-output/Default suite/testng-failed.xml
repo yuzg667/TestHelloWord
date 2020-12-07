@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.yiibai8.TestParameterXML">
+      <class name="com.yiibai9.TestApi">
         <methods>
-          <include name="createConnection"/>
+          <include name="test3Fail" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.yiibai8.TestParameterXML -->
+      </class> <!-- com.yiibai9.TestApi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

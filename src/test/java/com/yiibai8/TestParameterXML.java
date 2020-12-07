@@ -28,6 +28,7 @@ public class TestParameterXML {
         try {
             // get properties file from project classpath
             String path = System.getProperty("user.dir")+"\\"+dbconfig;
+//            String path = "/Users/yuzg/eclipse-workspace/TestHelloWorld/src/test/java/com/yiibai8/db.properties";
 
             System.out.println("path => "+path);
             //input = getClass().getClassLoader().getResourceAsStream(path);
@@ -49,13 +50,16 @@ public class TestParameterXML {
             con = DriverManager.getConnection(connectionURL, username, password);
 
         } catch (Exception e) {
+        	System.out.println("异常连接1: " + e);
             //e.printStackTrace();
         } finally {
             if (input != null) {
                 try {
                     input.close();
+                    System.out.println("关闭连接" );
                 } catch (IOException e) {
                     //e.printStackTrace();
+                	System.out.println("异常连接2: " + e);
                 }
             }
         }
