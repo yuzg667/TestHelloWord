@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="4" passed="4" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-09T06:55:17Z" name="test-parameter" finished-at="2020-12-09T06:55:17Z" duration-ms="557">
+  <suite started-at="2020-12-09T07:44:59Z" name="Default suite" finished-at="2020-12-09T07:44:59Z" duration-ms="21">
     <groups>
     </groups>
-    <test started-at="2020-12-09T06:55:17Z" name="example1" finished-at="2020-12-09T06:55:17Z" duration-ms="557">
-      <class name="com.yiibai9.TestApi">
-        <test-method signature="test1Post(java.lang.String)[pri:0, instance:com.yiibai9.TestApi@5e5d171f]" started-at="2020-12-09T14:55:17Z" name="test1Post" data-provider="dataProvider" finished-at="2020-12-09T14:55:17Z" duration-ms="226" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://mockdog.hellotom.top/testproject/datalist?testNG=test1Post]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2020-12-09T07:44:59Z" name="Default test" finished-at="2020-12-09T07:44:59Z" duration-ms="21">
+      <class name="com.yiibai2.TestRuntime">
+        <test-method signature="divisionWithException()[pri:0, instance:com.yiibai2.TestRuntime@367ffa75]" started-at="2020-12-09T15:44:59Z" name="divisionWithException" finished-at="2020-12-09T15:44:59Z" duration-ms="6" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+	at com.yiibai2.TestRuntime.divisionWithException(TestRuntime.java:8)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1Post -->
-        <test-method signature="test2Get(java.lang.String)[pri:0, instance:com.yiibai9.TestApi@5e5d171f]" started-at="2020-12-09T14:55:17Z" name="test2Get" data-provider="dataProvider" finished-at="2020-12-09T14:55:17Z" duration-ms="72" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://mockdog.hellotom.top/testproject/datalist?testNG=test2Get]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2Get -->
-        <test-method signature="test3Fail(java.lang.String)[pri:0, instance:com.yiibai9.TestApi@5e5d171f]" started-at="2020-12-09T14:55:17Z" name="test3Fail" data-provider="dataProvider" finished-at="2020-12-09T14:55:17Z" duration-ms="74" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://mockdog.hellotom.top/testproject/datalist?testNG=test3Fail]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3Fail -->
-      </class> <!-- com.yiibai9.TestApi -->
-      <class name="com.yiibai9.TestApi2">
-        <test-method signature="main()[pri:0, instance:com.yiibai9.TestApi2@41a2befb]" started-at="2020-12-09T14:55:17Z" name="main" finished-at="2020-12-09T14:55:17Z" duration-ms="161" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-      </class> <!-- com.yiibai9.TestApi2 -->
-    </test> <!-- example1 -->
-  </suite> <!-- test-parameter -->
+        </test-method> <!-- divisionWithException -->
+      </class> <!-- com.yiibai2.TestRuntime -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
