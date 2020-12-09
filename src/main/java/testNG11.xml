@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="test_1b32312c-f8ad-4fea-86ac-dd2f0bcdb57d">
+  <parameter name="env" value="开发"/>
+  <test thread-count="1" name="test_1b32312c-f8ad-4fea-86ac-dd2f0bcdb57d">
+    <classes>
+      <class name="com.yiibai2.TestRuntime">
+        <methods>
+          <include name="divisionWithException"/>
+        </methods>
+      </class> <!-- com.yiibai2.TestRuntime -->
+    </classes>
+  </test> <!-- test_1b32312c-f8ad-4fea-86ac-dd2f0bcdb57d -->
+</suite>
