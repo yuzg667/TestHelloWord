@@ -1,21 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-07T06:59:13Z" name="Default suite" finished-at="2020-12-07T06:59:13Z" duration-ms="21">
+  <suite started-at="2020-12-09T02:20:05Z" name="Default suite" finished-at="2020-12-09T02:20:05Z" duration-ms="313">
     <groups>
     </groups>
-    <test started-at="2020-12-07T06:59:13Z" name="Default test" finished-at="2020-12-07T06:59:13Z" duration-ms="21">
-      <class name="com.yiibai3.TestIgnore">
-        <test-method signature="test1()[pri:0, instance:com.yiibai3.TestIgnore@6989da5e]" started-at="2020-12-07T14:59:13Z" name="test1" finished-at="2020-12-07T14:59:13Z" duration-ms="9" status="PASS">
+    <test started-at="2020-12-09T02:20:05Z" name="Default test" finished-at="2020-12-09T02:20:05Z" duration-ms="313">
+      <class name="com.yiibai9.TestApi">
+        <test-method signature="test1Post(java.lang.String)[pri:0, instance:com.yiibai9.TestApi@2925bf5b]" started-at="2020-12-09T10:20:05Z" name="test1Post" data-provider="dataProvider" finished-at="2020-12-09T10:20:05Z" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://mockdog.hellotom.top/testproject/datalist?testNG=test1Post]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:com.yiibai3.TestIgnore@6989da5e]" started-at="2020-12-07T14:59:13Z" name="test2" finished-at="2020-12-07T14:59:13Z" duration-ms="1" status="PASS">
+        </test-method> <!-- test1Post -->
+        <test-method signature="test2Get(java.lang.String)[pri:0, instance:com.yiibai9.TestApi@2925bf5b]" started-at="2020-12-09T10:20:05Z" name="test2Get" data-provider="dataProvider" finished-at="2020-12-09T10:20:05Z" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://mockdog.hellotom.top/testproject/datalist?testNG=test2Get]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- com.yiibai3.TestIgnore -->
+        </test-method> <!-- test2Get -->
+        <test-method signature="test3Fail(java.lang.String)[pri:0, instance:com.yiibai9.TestApi@2925bf5b]" started-at="2020-12-09T10:20:05Z" name="test3Fail" data-provider="dataProvider" finished-at="2020-12-09T10:20:05Z" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://mockdog.hellotom.top/testproject/datalist?testNG=test3Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3Fail -->
+      </class> <!-- com.yiibai9.TestApi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
