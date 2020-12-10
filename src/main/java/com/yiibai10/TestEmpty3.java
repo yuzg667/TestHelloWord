@@ -7,5 +7,10 @@ import org.testng.annotations.Test;
 
 @Test
 public class TestEmpty3 {
+	
+	@Test
+    public void test1(String number) {
+    }
 
 }
+	
