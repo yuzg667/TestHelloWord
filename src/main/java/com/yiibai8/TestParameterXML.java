@@ -17,7 +17,7 @@ public class TestParameterXML {
 
     @Test
     @Parameters({ "dbconfig", "poolsize" })
-    public void createConnection(String dbconfig, String poolsize) {
+    public void createConnection(String dbconfig, int poolsize) {
 
         System.out.println("dbconfig : " + dbconfig);
         System.out.println("poolsize : " + poolsize);
