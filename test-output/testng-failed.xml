@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.yiibai8.TestParameterXML">
+      <class name="com.yiibai10.TestEmpty2">
         <methods>
-          <include name="createConnection"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- com.yiibai8.TestParameterXML -->
+      </class> <!-- com.yiibai10.TestEmpty2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
