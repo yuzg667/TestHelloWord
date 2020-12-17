@@ -1,52 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="0" failed="1" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-17T02:07:51Z" name="Default suite" finished-at="2020-12-17T02:07:51Z" duration-ms="13">
+  <suite started-at="2020-12-17T06:30:39Z" name="Default suite" finished-at="2020-12-17T06:30:39Z" duration-ms="303">
     <groups>
     </groups>
-    <test started-at="2020-12-17T02:07:51Z" name="Default test" finished-at="2020-12-17T02:07:51Z" duration-ms="13">
-      <class name="com.yiibai10.TestEmpty2">
-        <test-method signature="test1(int)[pri:0, instance:com.yiibai10.TestEmpty2@49438269]" started-at="2020-12-17T10:07:51Z" name="test1" finished-at="2020-12-17T10:07:51Z" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Method test1 requires 1 parameters but 0 were supplied in the @Test annotation.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method test1 requires 1 parameters but 0 were supplied in the @Test annotation.
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:193)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:129)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:385)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:495)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1253)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2020-12-17T06:30:39Z" name="Default test" finished-at="2020-12-17T06:30:39Z" duration-ms="303">
+      <class name="com.yiibai9.TestApi2">
+        <test-method signature="main()[pri:0, instance:com.yiibai9.TestApi2@2aceadd4]" started-at="2020-12-17T14:30:39Z" name="main" finished-at="2020-12-17T14:30:39Z" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- com.yiibai10.TestEmpty2 -->
+        </test-method> <!-- main -->
+      </class> <!-- com.yiibai9.TestApi2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

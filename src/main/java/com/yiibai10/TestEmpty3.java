@@ -10,6 +10,8 @@ public class TestEmpty3 {
 	
 	@Test
     public void test1(String number) {
+		System.out.println("---修改日期测试---");
+
     }
 
 }

@@ -3,7 +3,7 @@
 
     <test name="example1">
 
-        <parameter name="dbconfig" value="	" />
+        <parameter name="dbconfig" value="db.properties" />
         <parameter name="poolsize" value="10" />
 
         <classes>

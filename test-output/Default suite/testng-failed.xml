@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.yiibai10.TestEmpty2">
+      <class name="com.yiibai81.TestParameterDataProvider4">
         <methods>
-          <include name="test1"/>
+          <include name="test1" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.yiibai10.TestEmpty2 -->
+      </class> <!-- com.yiibai81.TestParameterDataProvider4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
