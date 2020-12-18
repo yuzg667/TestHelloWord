@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.yiibai81.TestParameterDataProvider4">
+      <class name="com.yiibai4.TestTimeout">
         <methods>
-          <include name="test1" invocation-numbers="0"/>
+          <include name="testThisShouldFail"/>
         </methods>
-      </class> <!-- com.yiibai81.TestParameterDataProvider4 -->
+      </class> <!-- com.yiibai4.TestTimeout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
