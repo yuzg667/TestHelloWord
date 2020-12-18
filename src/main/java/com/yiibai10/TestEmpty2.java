@@ -9,6 +9,7 @@ public class TestEmpty2 {
 
     @Test(dataProvider = "dataProvider", groups = {"groupA"})
     public void test1(int number) {
+    	System.out.print("-----");
     }
 
     
