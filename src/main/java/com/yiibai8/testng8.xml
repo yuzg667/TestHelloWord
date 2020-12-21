@@ -5,6 +5,7 @@
 
         <parameter name="dbconfig" value="db.properties" />
         <parameter name="poolsize" value="10" />
+         <parameter name="Env" value="www.baidu.com" />
 
         <classes>
             <class name="com.yiibai8.TestParameterXML" />
