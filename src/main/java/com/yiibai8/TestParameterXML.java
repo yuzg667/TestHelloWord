@@ -16,11 +16,13 @@ public class TestParameterXML {
     Connection con;
 
     @Test
-    @Parameters({ "dbconfig", "poolsize" })
-    public void createConnection(String dbconfig, int poolsize) {
+    @Parameters({ "dbconfig", "poolsize","Env" })
+    public void createConnection(String dbconfig, int poolsize,String Env) {
 
         System.out.println("dbconfig : " + dbconfig);
         System.out.println("poolsize : " + poolsize);
+        System.out.println("Env : " + Env);
+
 
         Properties prop = new Properties();
         InputStream input = null;
