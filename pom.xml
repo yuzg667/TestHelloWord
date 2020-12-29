@@ -59,7 +59,7 @@
             <configuration>
                 <suiteXmlFiles>
                     <file>
-                        ${suiteXmlFile}
+                        ${xmlFileName}
 <!--                        src/test/resources/testng.xml-->
                     </file>
                 </suiteXmlFiles>
